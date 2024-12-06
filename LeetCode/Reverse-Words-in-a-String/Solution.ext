@@ -1,2 +1,4 @@
-Input: s = "the sky is blue"
-Output: "blue is sky the"
+function reverseWords(s) {
+    const words = s.trim().split(/\s+/);
+    return words.reverse().join(' ');
+}
